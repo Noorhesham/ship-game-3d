@@ -182,10 +182,10 @@ scene.add(directionalLight);
 // Game state
 const gameState = {
   boatSpeed: 0,
-  maxBoatSpeed: 10,
-  boatAcceleration: 8,
+  maxBoatSpeed: 5,
+  boatAcceleration: 4,
   boatDeceleration: 3,
-  boatRotationSpeed: Math.PI * 0.8,
+  boatRotationSpeed: Math.PI * 0.4,
   cameraMode: "thirdPerson", // "firstPerson", "thirdPerson", "orbital"
   cameraHeight: 3,
   cameraDistance: 7,
